@@ -19,3 +19,19 @@ The project follows a Bronze-Silver-Gold Medallion Architecture in Microsoft Fab
 ## Automation
 
 The data workflow is automated using Microsoft Fabric Data Pipelines. The pipeline runs the Bronze, Silver, and Gold notebooks on a weekly schedule, followed by refreshes of the semantic model and Power BI dashboard to keep the analysis up to date.
+
+## Power BI Dashboard
+
+**[View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMmYxMGYyYWEtZDhjNy00ZTU0LWFjNzUtZmRkNTc5NDA3YzRhIiwidCI6IjJiOTBmNjgwLTBjNzMtNDU4NC05Y2U1LWM5MzQzMTk0MzlkMSJ9)**
+
+The interactive Power BI dashboard provides a consolidated view of TTC service reliability and allows users to explore delay patterns across different transit modes, routes, locations, and time periods.
+
+The dashboard includes:
+
+- KPI cards for total incidents, delay incidents, average delay, and average service gap.
+- Delay analysis across Bus, Subway, Streetcar, and LRT.
+- Most affected routes and subway lines.
+- Analysis of the most common identified delay causes.
+- Day-of-week and hourly delay patterns.
+- Monthly delay trends.
+- Interactive filters and drill-through analysis.

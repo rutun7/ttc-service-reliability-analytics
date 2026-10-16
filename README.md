@@ -35,3 +35,7 @@ The dashboard includes:
 - Day-of-week and hourly delay patterns.
 - Monthly delay trends.
 - Interactive filters and drill-through analysis.
+
+### Dashboard Preview
+
+![TTC Service Reliability Dashboard](TTC%20Dashboard.png)

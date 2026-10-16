@@ -15,3 +15,7 @@ The project follows a Bronze-Silver-Gold Medallion Architecture in Microsoft Fab
 - **Silver:** Cleans and transforms the raw datasets using PySpark, standardizes the data across transit modes, and maps TTC incident codes to descriptions.
 - **Gold:** Combines the transformed data and creates analytics-ready fact and dimension tables for reporting.
 - **Power BI:** Uses the Gold-layer data to build an interactive service reliability dashboard.
+
+## Automation
+
+The data workflow is automated using Microsoft Fabric Data Pipelines. The pipeline runs the Bronze, Silver, and Gold notebooks on a weekly schedule, followed by refreshes of the semantic model and Power BI dashboard to keep the analysis up to date.

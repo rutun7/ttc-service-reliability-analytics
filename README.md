@@ -39,3 +39,11 @@ The dashboard includes:
 ### Dashboard Preview
 
 ![TTC Service Reliability Dashboard](TTC%20Dashboard.png)
+
+## Technologies Used
+
+- **Microsoft Fabric** – Data engineering, Lakehouse, OneLake, and pipeline orchestration
+- **PySpark** – Data cleaning and transformation
+- **Delta Lake** – Silver and Gold layer tables
+- **Power BI** – Data modeling, DAX, and interactive dashboard development
+- **Toronto Open Data** – Source for TTC transit delay datasets

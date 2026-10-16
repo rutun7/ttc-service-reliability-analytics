@@ -1,4 +1,4 @@
-# ttc-service-reliability-analytics
+# TTC Service Reliability Analytics
 ## Project Overview
 
 This project analyzes Toronto Transit Commission (TTC) service delays across Bus, Subway, Streetcar, and Light Rail Transit (LRT) from January 2025 to August 2026.

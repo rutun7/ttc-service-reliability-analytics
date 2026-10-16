@@ -51,3 +51,17 @@ The dashboard includes:
 - **Delta Lake** – Silver and Gold layer tables
 - **Power BI** – Data modeling, DAX, and interactive dashboard development
 - **Toronto Open Data** – Source for TTC transit delay datasets
+
+## Repository Structure
+
+```text
+ttc-service-reliability-analytics/
+├── README.md
+├── TTC Dashboard.png
+├── Medallion Data Pipeline.png
+└── notebooks/
+    ├── README.md
+    ├── NB_TTC_Bronze_Ingestion.ipynb
+    ├── NB_TTC_Silver_Transformation.ipynb
+    └── NB_TTC_Gold_Transformation.ipynb
+```

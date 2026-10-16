@@ -40,6 +40,10 @@ The dashboard includes:
 
 ![TTC Service Reliability Dashboard](TTC%20Dashboard.png)
 
+### Fabric Data Pipeline
+
+![Microsoft Fabric Medallion Data Pipeline](Medallion%20Data%20Pipeline.png)
+
 ## Technologies Used
 
 - **Microsoft Fabric** – Data engineering, Lakehouse, OneLake, and pipeline orchestration
